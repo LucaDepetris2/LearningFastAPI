@@ -1,5 +1,3 @@
-from fastapi import FastAPI
-
 def fence(func):
     def decorate():
         print ("+" * 10)
@@ -12,3 +10,4 @@ def log():
     print ("Hello World!")
 
 log()
+
